@@ -9,7 +9,7 @@ class Hangman:
         self.won = False
 
         # get ascii Art as list
-        with open('hangmanASCII.txt', 'r') as file:
+        with open('./git_test_repo/hangmanASCII.txt', 'r') as file:
             content = file.read()
             self.hangmanList = content.split(',')
 
